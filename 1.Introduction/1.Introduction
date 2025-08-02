@@ -1,0 +1,69 @@
+NumPy : (Numerical Python)
+
+- It uses for scientific computing.
+- It provides support for large multi-dimentional arrays and matrices 
+along with a collection of mathematical functions to operate on arrays.
+
+- In its core , it uses ndarray(n-dimentional array) object which allows
+us to store and manipulate large datasets in a memory-efficient manner.
+Unlike python's built in lists, NumPy are homogeneous and enable faster 
+operations.
+
+-----------------------------------------------------------------------------
+
+# KEY-FEATURES
+- N-Dimentional arrays :
+  Numpy's core feature is ndarray, a powerful N-DIMENATIONAL Array object
+  that supports homogeneous data types.
+
+- Arrays with High Performance:
+  Arrays are stored in contigious memory locations, enabling faster computations
+  than Python lists.
+
+- Broadcasting :
+  Allows element-wise computations betn arrays of different shapes.
+  It simplifies operations on arrays of various shapes by automatically
+  aligning their dimentions without creating new data.
+
+- Vectorization:
+  Eliminates the need of explicit Python loops by applying
+  operations directly on entire arrays.
+
+- Linear Algebra:
+  Numpy contains routines for linear algebra operations,such as matrix 
+  multiplication,decompostions and deteminants.
+
+-------------------------------------------------------------------------------
+
+# IMPORTANT FACTS
+- Vectorized operations : Numpy operations are faster than python lists
+because they use optimized C-based functions.
+- Broadcasting Feature : Numpy allows operations betn arrays of different
+shapes without expilict looping known as Broadcasting, making it easier
+to handle large datasets.
+
+----------------------------------------------------------------------------------------
+
+# Its uses :
+- Creating and manipulating arrays
+- Performing element-wise and matrix operations
+- Generating random numbers and statistical calculations.
+- Conducting linear algebra operations.
+- Working with Fourier transformations. (signals frequency related)
+- Handling missing values efficiently in datasets.
+
+---------------------------------------------------------------------------------------------
+
+WHY LEARN NUMPY?
+- It speed up mathematical operations like addition and multiplication 
+on large group of numbers compared to regular python.
+- Its good for handling large lists of numbers ( arrays ) , so no need
+to use loops.
+- It gives us ready-to-use functions for statistics, algebra and 
+random numbers.
+- Libraries like Pandas,SciPy,TensorFlow and many others are built on
+top fo numpy.
+- It uses less memory and stores data more effeciently, which matters 
+when working with lots of data.
+
+-------------------------------------------------------------------------------------------------
